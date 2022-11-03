@@ -1,13 +1,13 @@
-et num=48;
+let num=48;
 let count=0;
 for(let i=0;i<=num;i++){
     if(num%i==0){
-        count--;
+        count++;
     }
 }
 if(count==2){
-    console.log("Not Prime");
+    console.log(" Prime");
 }
 else {
-    console.log(" Prime");
+    console.log("Not Prime");
 }
